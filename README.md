@@ -42,7 +42,7 @@ pip install -r requirements.txt
 
 Run the script:
 ```bash
-python b.py
+python stock_analyzer.py
 ```
 
 Enter a stock ticker when prompted (use `.NS` suffix for NSE stocks):
@@ -135,3 +135,4 @@ Kavya Jain
 - yfinance for stock data API
 - statsmodels for ARIMA implementation
 - The open-source community
+
