@@ -22,10 +22,12 @@ A comprehensive Python-based stock analysis tool with machine learning predictio
 - **52-Week High/Low** - Annual price range analysis
 
 ### Advanced Visualization
-- **Candlestick Charts** - OHLC price visualization
+- **Candlestick Charts** - OHLC price visualization with trend lines
 - **Volume Analysis** - Trading volume with color-coded bars
-- **RSI Chart** - With overbought/oversold zones
+- **RSI Chart** - With overbought/oversold zones (70/30 levels)
 - **MACD Chart** - With signal line and histogram
+- **Daily Returns** - Volatility visualization with color-coded bars
+- **Dashboard Summary** - Key metrics display panel
 
 ## 📦 Installation
 
@@ -63,11 +65,13 @@ The system provides:
    - Technical indicator values
    - Risk metrics and classification
 
-2. **4-Panel Dashboard**:
-   - Price chart with trend lines and moving averages
-   - Trading volume visualization
-   - RSI indicator chart
-   - MACD indicator chart
+2. **6-Panel Advanced Dashboard**:
+   - **Price Analysis** - Candlestick chart with Linear/ARIMA trends, 50/200-day MAs, and Bollinger Bands
+   - **Trading Volume** - Color-coded volume bars (green=up, red=down)
+   - **RSI Strength** - Relative Strength Index with overbought/oversold zones
+   - **MACD Momentum** - MACD line, signal line, and histogram
+   - **Daily Volatility** - Daily returns percentage visualization
+   - **Dashboard Summary** - Key metrics including price, volatility, Sharpe ratio, and RSI
 
 ## 📈 Sample Output
 
@@ -100,13 +104,19 @@ The system provides:
 
 ## 🛠️ Technologies Used
 
-- **yfinance** - Stock data fetching
-- **pandas** - Data manipulation
-- **numpy** - Numerical computations
-- **scikit-learn** - Linear regression model
+- **yfinance** - Real-time stock data fetching from Yahoo Finance
+- **pandas** - Data manipulation and analysis
+- **numpy** - Numerical computations and array operations
+- **scikit-learn** - Linear regression model and metrics
 - **statsmodels** - ARIMA time-series modeling
-- **matplotlib** - Visualization
-- **mplfinance** - Financial charting
+- **matplotlib** - Advanced data visualization and charting
+- **mplfinance** - Financial-specific charting tools
+
+## 📸 Dashboard Preview
+
+![Stock Analysis Dashboard](https://github.com/user-attachments/assets/f9ba6194-e036-40ce-80d7-950930154e25)
+
+*6-panel advanced dashboard showing price trends, volume, RSI, MACD, daily volatility, and key metrics summary*
 
 ## ⚠️ Disclaimer
 
@@ -135,5 +145,3 @@ Kavya Jain
 - yfinance for stock data API
 - statsmodels for ARIMA implementation
 - The open-source community
-
-
